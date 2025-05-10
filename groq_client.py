@@ -7,7 +7,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 def analyze_resume_with_groq(resume_text, job_description):
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}"
+        "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json"
     }
 
